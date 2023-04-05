@@ -13,7 +13,7 @@ body {
     color: antiquewhite;
 }
 .header h1 {
-    display: inline-block;
+    display: flex;
     font-size: 60px;
 }
 
