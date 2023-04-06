@@ -7,19 +7,20 @@ body {
 }
 
 .header {
+    height: 100px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
     color: antiquewhite;
 }
 .header h1 {
+    margin-top: 50px;
     display: flex;
     font-size: 60px;
 }
 
 .header nav {
-    padding-top: 10px;
-    margin: auto;
+    margin-top: -50px;
     float: right;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
@@ -34,7 +35,8 @@ body {
 }
 
 .about-me {
-    font-size: 22px;
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: antiquewhite;
+    
 }
