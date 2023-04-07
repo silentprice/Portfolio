@@ -9,6 +9,12 @@ p {
     font-size: 18px;
     margin-top: 2%;
     margin-left: 4%;
+   
+}
+h1 {
+    font-size: 30px;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header {
@@ -40,8 +46,7 @@ p {
 }
 
 .about-me {
-    margin-left: 50px;
-    margin-right: 100px;
+    margin: 200px;
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: antiquewhite;
@@ -49,11 +54,16 @@ p {
     
 }
 
+
 .space {
-    height: 150px;
+    height: 200px;
     width: 100%;
     background-image: url("../images/blueswirl.jpeg");
     background-size: cover;
     background-position: center;
-    margin: 10px;
+    
+}
+
+.space1 {
+    height: 60px;
 }
