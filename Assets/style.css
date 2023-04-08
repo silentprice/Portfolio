@@ -1,3 +1,8 @@
+:root {
+    --blue: rgb(9, 9, 192);
+    --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,16 +18,16 @@ p {
 }
 h1 {
     font-size: 30px;
-    color: blue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--blue);
+    font-family: var(--font);
 }
 
 .header {
     height: 100px;
     padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--font);
     background-color: aqua;
-    color: blue;
+    color: var(--blue);
 }
 .header h1 {
     margin-top: 50px;
@@ -33,7 +38,7 @@ h1 {
 .header nav {
     margin-top: -50px;
     float: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--font);
     font-size: 25px;
 }
 
@@ -48,9 +53,9 @@ h1 {
 .about-me {
     margin: 200px;
     font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:var(--font);
     background-color: antiquewhite;
-    color: blue;
+    color: var(--blue);
     
 }
 
