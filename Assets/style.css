@@ -92,3 +92,8 @@ h1 {
     height: 500px;
     object-fit: contain;
 }
+.work .break {
+    height: 1px; 
+    background-color: black; 
+    margin-bottom: 30px;
+}
