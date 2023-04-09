@@ -51,7 +51,7 @@ h1 {
 }
 
 .about-me {
-    margin: 200px;
+    margin: 100px;
     font-size: 24px;
     font-family:var(--font);
     background-color: antiquewhite;
@@ -61,7 +61,7 @@ h1 {
 
 
 .space {
-    height: 200px;
+    height: 100px;
     width: 100%;
     background-image: url("../images/blueswirl.jpeg");
     background-size: cover;
@@ -84,4 +84,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.flex-item {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
