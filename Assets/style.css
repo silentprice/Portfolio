@@ -97,12 +97,12 @@ h1 {
     background-color: black; 
     margin-bottom: 30px;
 }
-.work h1 {
+.work h1, .resume h2 {
     font-size: 32px;
     margin-bottom: 30px;
     text-align: center;
 }
-.contact-me {
+.contact-me, .resume {
     padding: 50px;
     color: var(--blue);
   }
