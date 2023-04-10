@@ -99,6 +99,7 @@ h1 {
 }
 .contact-me {
     padding: 50px;
+    color: var(--blue);
   }
   
 .contact-me h2 {
