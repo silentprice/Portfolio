@@ -97,6 +97,11 @@ h1 {
     background-color: black; 
     margin-bottom: 30px;
 }
+.work h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 .contact-me {
     padding: 50px;
     color: var(--blue);
