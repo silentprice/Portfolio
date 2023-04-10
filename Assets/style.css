@@ -97,3 +97,26 @@ h1 {
     background-color: black; 
     margin-bottom: 30px;
 }
+.contact-me {
+    padding: 50px;
+  }
+  
+.contact-me h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+.contact-me p {
+    font-size: 20px;
+    line-height: 1.5;
+    
+  }
+  
+.contact-me a {
+    color: #0077cc;
+    font-weight: bold;
+  }
+  
+.contact-me a:hover {
+    text-decoration: underline;
+  }
