@@ -60,7 +60,6 @@ h1 {
     
 }
 
-
 .space {
     height: 100px;
     width: 100%;
@@ -81,16 +80,54 @@ h1 {
     border-top: double;
 }
 
+.my-work-img-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex-item-1 {
+    width: 100%;
+}
+
+.work {
+    text-align: center;
+}
+
 .flex-container {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; */
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
+
+/* gave this a position of relative */
+.ups-container {
+    position: relative;
+}
+/* so that this element can be positioned absolutely within ups container to center it */
+.image-text {
+    position: absolute;
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .flex-item {
     margin: 25px;
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
     height: 500px;
     object-fit: contain;
 }
@@ -137,10 +174,9 @@ img {
     border: dotted;
     background-color: black;
 }
-.image-text {
-    position: absolute;
-    background-color: grey;
-    padding: 10px;
-    color: white;
-    font-size: 18px;
+
+@media screen and (max-width: 1180px) {
+    .flex-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
