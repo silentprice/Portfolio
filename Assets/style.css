@@ -174,7 +174,7 @@ img {
     border: dotted;
     background-color: black;
 }
-
+/*added media screen so picture stayed aligned in the middle of the page even when using smaller screen*/
 @media screen and (max-width: 1180px) {
     .flex-container {
         grid-template-columns: repeat(1, 1fr);
