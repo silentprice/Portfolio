@@ -174,6 +174,9 @@ img {
     border: dotted;
     background-color: black;
 }
+.header img {
+    height: 150px;
+}
 /*added media screen so picture stayed aligned in the middle of the page even when using smaller screen*/
 @media screen and (max-width: 1180px) {
     .flex-container {
