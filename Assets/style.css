@@ -65,7 +65,7 @@ h1 {
     height: 100px;
     width: 100%;
     background-image: url("../images/blueswirl.jpeg");
-    background-size: cover;
+    background-size: auto 220px;
     background-position: center;
     
 }
@@ -86,6 +86,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+   
 }
 .flex-item {
     margin: 25px;
@@ -131,4 +132,15 @@ h1 {
 
 .resume p {
     text-align: var(--align);
+}
+img {
+    border: dotted;
+    background-color: black;
+}
+.image-text {
+    position: absolute;
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
 }
