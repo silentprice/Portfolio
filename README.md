@@ -7,7 +7,7 @@
 * https://github.com/silentprice/Portfolio.git
 
 ## Live URL
-* 
+* https://silentprice.github.io/Portfolio/
 
 ## Screenshot
 ![screenshot](./images/Screenshot%202023-04-11%20at%207.20.56%20PM.png)
