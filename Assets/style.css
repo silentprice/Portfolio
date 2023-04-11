@@ -1,6 +1,7 @@
 :root {
     --blue: rgb(9, 9, 192);
     --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --align: center;
 }
 
 * {
@@ -97,10 +98,10 @@ h1 {
     background-color: black; 
     margin-bottom: 30px;
 }
-.work h1, .resume h2 {
+.work h1, .resume h2, .contact-me h2 {
     font-size: 32px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: var(--align);
 }
 .contact-me, .resume {
     padding: 50px;
@@ -115,6 +116,7 @@ h1 {
 .contact-me p {
     font-size: 20px;
     line-height: 1.5;
+    text-align: var(--align);
     
   }
   
@@ -126,3 +128,7 @@ h1 {
 .contact-me a:hover {
     text-decoration: underline;
   }
+
+.resume p {
+    text-align: var(--align);
+}
